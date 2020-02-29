@@ -1,0 +1,18 @@
+.DanhSach, .MyForm {
+	padding-top: 20px;
+	margin-top: 20px;
+	background: white;
+}
+
+.MyForm {
+	padding-left: 170px;
+	padding-right: 170px;
+}
+
+#footerid {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}

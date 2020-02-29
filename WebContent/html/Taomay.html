@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>ĐĂNG KÝ SỬ DỤNG DỊCH VỤ</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+<script src="../bootstrap/jquery.min.js"></script>
+<script src="../bootstrap/popper.min.js"></script>
+<script src="../bootstrap/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/4css.css">
+</head>
+<body>
+
+	<header>
+	<%@ include file = "Nav.jsp" %>
+	</header>
+	
+	<div class="container">
+  <form action="/action_page.php" id="formTaoMay">
+    <h2>TẠO MÁY MỚI</h2>
+    <div class="form-group">
+      <label for="maMay">Mã máy</label>
+      <input type="text" class="form-control" id="maMay" placeholder="Nhập mã máy" name="maMay">
+    </div>
+        <div class="form-group">
+      <label for = "trangThai">Trạng Thái</label>
+      <input type="text" class="form-control" id="trangThai" placeholder="Nhập trạng thái" name="trangThai">
+    </div>
+        <div class="form-group">
+      <label for = "viTri">Vị trí</label>
+      <input type="text" class="form-control" id="viTri" placeholder="Nhập mã máy" name="viTri">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+	<!-- Footer -->
+<%@ include file = "Footer.jsp" %>
+	<!-- Footer -->
+</body>
+</html>

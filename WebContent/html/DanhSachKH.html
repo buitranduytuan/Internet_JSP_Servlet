@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LIỆT KÊ DANH SÁCH KHÁCH HÀNG</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+	<script src="../bootstrap/jquery.min.js"></script>
+	<script src="../bootstrap/popper.min.js"></script>
+	<script src="../bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/4css.css">
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
+</head>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-light justify-content-center">
+  <a class="navbar-brand" href="#">
+   <img src="../image/logo3.jpg" style="width:55px;">
+  </a>
+  <ul class="navbar-nav nav nav-pills">
+    <li class="nav-item">
+      <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Tạo Mới
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Taomay.html">Tạo mới Máy</a>
+                <a class="dropdown-item" href="TaoKH.html">Tạo mới Khách hàng</a>
+                <a class="dropdown-item" href="TaoDichVu.html">Tạo mới Dịch Vụ</a>
+              </div>
+          </div>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Liệt kê
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="DanhSachMay.html">Liệt kê danh sách Máy</a>
+                <a class="dropdown-item" href="DanhSachDichVu.html">Liệt kê danh sách Dịch vụ</a>
+                <a class="dropdown-item" href="DanhSachKH.html">Liệt kê danh sách Khách Hàng</a>
+                <a class="dropdown-item" href="LietKeToanBoThongTin.html">Liệt kê toàn bộ thông tin khách hàng</a>
+              </div>
+          </div>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Đăng ký
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="DangKySuDungMay.html">Đăng ký sử dụng Máy</a>
+                <a class="dropdown-item" href="DangKySuDungDV.html">Đăng ký sử dụng Dịch vụ</a>
+              </div>
+          </div>
+    </li>   
+  </ul>
+   <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+    </form>
+</nav>
+
+<div class="container mt-3">
+  <h2>LIỆT KÊ DANH SÁCH KHÁCH HÀNG</h2>
+  <p>Thông tin danh sách các máy</p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <table class="table table-bordered" id="tableDanhSachKH">
+    <thead>
+      <tr>
+        <th>Mã khách hàng</th>
+        <th>Tên khách hàng</th>
+        <th>Địa chỉ</th>
+        <th>Số điện thoại</th>
+        <th>Địa Email</th>
+        <th>Chức năng</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+        <td>1</td>
+        <td>TuanBTD</td>
+        <td>Quang Nam</td>
+        <td>0978202709</td>
+        <td>TuanBTD@example.com</td>
+        <td>
+          <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Option
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Edit</a>
+                <a class="dropdown-item" href="#">Delete</a>
+              </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>TuanBTD2</td>
+        <td>Quang Nam</td>
+        <td>0978202709</td>
+        <td>TuanBTD@example.com</td>
+        <td>
+          <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Option
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Edit</a>
+                <a class="dropdown-item" href="#">Delete</a>
+              </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>TuanBTD3</td>
+        <td>Quang Nam</td>
+        <td>0978202709</td>
+        <td>TuanBTD@example.com</td>
+        <td>
+          <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Option
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Edit</a>
+                <a class="dropdown-item" href="#">Delete</a>
+              </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>TuanBTD4</td>
+        <td>Quang Nam</td>
+        <td>0978202709</td>
+        <td>TuanBTD@example.com</td>
+        <td>
+          <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Option
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Edit</a>
+                <a class="dropdown-item" href="#">Delete</a>
+              </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>TuanBTD5</td>
+        <td>Quang Nam</td>
+        <td>0978202709</td>
+        <td>TuanBTD@example.com</td>
+        <td>
+          <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Option
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Edit</a>
+                <a class="dropdown-item" href="#">Delete</a>
+              </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<body>
+
+
+<div id="phantrang">
+  <ul class="pagination justify-content-center">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+</footer>
+<!-- Footer -->
+</body>
+</html>

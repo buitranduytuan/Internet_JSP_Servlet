@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ĐĂNG KÝ SỬ DỤNG MÁY</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+	<script src="../bootstrap/jquery.min.js"></script>
+	<script src="../bootstrap/popper.min.js"></script>
+	<script src="../bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/4css.css">
+</head>
+<body>
+<header>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-light justify-content-center">
+  <a class="navbar-brand" href="#">
+   <img src="../image/logo3.jpg" style="width:55px;">
+  </a>
+  <ul class="navbar-nav nav nav-pills">
+    <li class="nav-item">
+      <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Tạo Mới
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Taomay.html">Tạo mới Máy</a>
+                <a class="dropdown-item" href="TaoKH.html">Tạo mới Khách hàng</a>
+                <a class="dropdown-item" href="TaoDichVu.html">Tạo mới Dịch Vụ</a>
+              </div>
+          </div>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Liệt kê
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="DanhSachMay.html">Liệt kê danh sách Máy</a>
+                <a class="dropdown-item" href="DanhSachDichVu.html">Liệt kê danh sách Dịch vụ</a>
+                <a class="dropdown-item" href="DanhSachKH.html">Liệt kê danh sách Khách Hàng</a>
+                <a class="dropdown-item" href="LietKeToanBoThongTin.html">Liệt kê toàn bộ thông tin khách hàng</a>
+              </div>
+          </div>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Đăng ký
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="DangKySuDungMay.html">Đăng ký sử dụng Máy</a>
+                <a class="dropdown-item" href="DangKySuDungDV.html">Đăng ký sử dụng Dịch vụ</a>
+              </div>
+          </div>
+    </li>   
+  </ul>
+   <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+    </form>
+</nav>
+
+</header>
+<div class="container">
+  <form action="/action_page.php" id="formTaoMay">
+    <h2>ĐĂNG KÝ SỬ DỤNG MÁY</h2>
+    <div class="form-group">
+      <label for="maMay">Mã máy</label>
+      <input type="text" class="form-control" id="maMay" placeholder="Nhập mã máy" name="maMay">
+    </div>
+    <div class="form-group">
+      <label for = "maKH">Mã khách hàng</label>
+      <input type="text" class="form-control" id="trangThai" placeholder="Nhập mã khách hàng" name="maKH">
+    </div>
+    <div class="form-group">
+      <label for = "ngayBD">Ngày bắt đầu sử dụng</label>
+      <input type="text" class="form-control" id="viTri" placeholder="Nhập ngày bắt đầu sử dụng" name="ngayBD">
+    </div>
+    <div class="form-group">
+      <label for = "gioBD">Giờ bắt đầu sử dụng</label>
+      <input type="text" class="form-control" id="viTri" placeholder="Nhập giờ bắt đầu sử dụng" name="gioBD">
+    </div>
+    <div class="form-group">
+      <label for = "thoiGianSD">Thời gian sử dụng</label>
+      <input type="text" class="form-control" id="viTri" placeholder="Nhập thời gian sử dụng" name="thoiGianSD">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+</footer>
+<!-- Footer -->
+</body>
+</html>
